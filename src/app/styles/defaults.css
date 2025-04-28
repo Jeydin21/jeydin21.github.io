@@ -1,0 +1,56 @@
+div {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-background-1 text-text;
+}
+
+::-webkit-scrollbar {
+    @apply lg:w-2 sm:w-1.5 w-1;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-background-2;
+    @apply rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-background-3;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.grecaptcha-badge {
+    display: none;
+}
+
+h1 {
+    @apply h1;
+}
+
+h2 {
+    @apply h2;
+}
+
+h3 {
+    @apply h3;
+}
+
+h4 {
+    @apply h4;
+}
+
+h5 {
+    @apply h5;
+}
+
+h6 {
+    @apply h6;
+}
