@@ -48,7 +48,7 @@ export default function ParallaxBackground({ interact }: { interact: boolean }) 
                 //y: event.touches[0].clientY / window.innerHeight,
             });
         }
-        
+
         window.addEventListener("touchmove", handleTouchMove as any);
         window.addEventListener("mousemove", handleMouseMove);
         return () => {
@@ -56,7 +56,7 @@ export default function ParallaxBackground({ interact }: { interact: boolean }) 
             window.removeEventListener("mousemove", handleMouseMove);
         };
     }, [interact]);
-  
+
     const x = (mousePosition.x - 0.5);
     //const y = (mousePosition.y - 0.5);
     const y = 0;
@@ -64,7 +64,7 @@ export default function ParallaxBackground({ interact }: { interact: boolean }) 
     return (
         <div
             id="bg-parallax"
-            className="absolute inset-0 w-full h-full overflow-hidden"
+            className="absolute inset-0 w-full h-full overflow-hidden brightness-[0.85]"
         >
             <MotionDiv ImageComponent={Parallax.Background} x={x} y={y} offset={0} />
             <MotionDiv ImageComponent={Parallax.Mountains} x={x} y={y} offset={40} />
