@@ -154,6 +154,7 @@ export class Status {
 
     static paused: Status = new Status("Paused", "text-red-700");
     static inDev: Status = new Status("In Dev", "text-yellow-700");
+    static archived: Status = new Status("Archived", "text-gray-700");
     static complete: Status = new Status("Complete", "text-green-700");
 }
 
