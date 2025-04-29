@@ -232,15 +232,7 @@ export const projects = [
     ),
 ];
 
-/* You may be wondering why I would expose these keys
-    to the public. The reason is that I don't care about them.
-    I don't use Formspree for anything important, and the reCAPTCHA key is a site key, so it doesn't matter if it's exposed.
-    You need the secret key to actually use reCAPTCHA, and that is truly hidden.
-    If you want to use these keys, go ahead. I don't care. Just don't spam me with emails or reCAPTCHA requests.
-*/
 export const contactInfo = {
-    formspreeKey: "mgepvyyv",
-    reCaptchaKey: "6Ld-JyYrAAAAAFAT3E_dOc5C63UmCjen9k0_4m6c", // Site key
     location: "Katy, Texas",
     email: "jeydin@j21.dev",
     github: "https://github.com/Jeydin21/",
