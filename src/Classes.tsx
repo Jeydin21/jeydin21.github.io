@@ -12,45 +12,30 @@ import Html5 from "@/svg/languages/Html5";
 import Css3 from "@/svg/languages/Css3";
 import JavaScript from "@/svg/languages/JavaScript";
 import TypeScript from "@/svg/languages/TypeScript";
-import Rust from "@/svg/languages/Rust";
 import Python from "@/svg/languages/Python";
-import R from "@/svg/languages/R";
 
 // Frameworks
 import Flutter from "@/svg/frameworks/Flutter";
-import Spring from "@/svg/frameworks/Spring";
 import ReactJs from "@/svg/frameworks/ReactJs";
 import NextJs from "@/svg/frameworks/NextJs";
-import Arduino from "@/svg/frameworks/Arduino";
-import DotNet from "@/svg/frameworks/DotNet";
-import ElectronJs from "@/svg/frameworks/ElectronJs";
 import TailwindCss from "@/svg/frameworks/TailwindCss";
-import LWJGL from "@/svg/frameworks/LWJGL";
 import Node from "@/svg/frameworks/Node";
 
 // Databases
 import MySql from "@/svg/databases/MySql";
-import SqLite from "@/svg/databases/SqLite";
-import Supabase from "@/svg/databases/Supabase";
-import PostgreSql from "@/svg/databases/PostgreSql";
+import Redis from "@/svg/databases/Redis";
+import MongoDb from "@/svg/databases/MongoDb";
 
 // IDEs
-import Eclipse from "@/svg/ides/Eclipse";
-import IntelliJ from "@/svg/ides/IntelliJ";
 import VSCode from "@/svg/ides/VSCode";
-import VisualStudio from "@/svg/ides/VisualStudio";
 
 // Tools
 import Git from "@/svg/tools/Git";
 import Bash from "@/svg/tools/Bash";
 import Docker from "@/svg/tools/Docker";
-import Postman from "@/svg/tools/Postman";
 import Npm from "@/svg/tools/Npm";
-import Oci from "@/svg/tools/Oci";
-import Gradle from "@/svg/tools/Gradle";
 import GraphQL from "@/svg/tools/GraphQL";
-import Hetzner from "@/svg/tools/Hetzner";
-import Nginx from "@/svg/tools/Nginx";
+import Vercel from "./svg/tools/Vercel";
 
 export class Skill {
     name: string;
@@ -73,41 +58,27 @@ export class Skill {
     static css3: Skill = new Skill("CSS", Css3);
     static javaScript: Skill = new Skill("JavaScript", JavaScript);
     static typeScript: Skill = new Skill("TypeScript", TypeScript);
-    static rust: Skill = new Skill("Rust", Rust);
     static python: Skill = new Skill("Python", Python);
-    static r: Skill = new Skill("R", R);
 
-    static spring: Skill = new Skill("Spring", Spring);
-    static arduino: Skill = new Skill("Arduino", Arduino);
-    static dotNet: Skill = new Skill(".NET", DotNet);
     static flutter: Skill = new Skill("Flutter", Flutter);
     static nextJs: Skill = new Skill("Next", NextJs);
     static reactJs: Skill = new Skill("React", ReactJs);
-    static electronJs: Skill = new Skill("Electron", ElectronJs);
     static tailwindCss: Skill = new Skill("Tailwind", TailwindCss);
-    static lwjgl: Skill = new Skill("LWJGL", LWJGL);
     static node: Skill = new Skill("Node", Node);
 
-    static mySql: Skill = new Skill("MySQL", MySql);
-    static sqLite: Skill = new Skill("SQLite", SqLite);
-    static supabase: Skill = new Skill("Supabase", Supabase);
-    static postgreSql: Skill = new Skill("PostgreSQL", PostgreSql);
 
-    static eclipse: Skill = new Skill("Eclipse", Eclipse);
-    static intelliJ: Skill = new Skill("IntelliJ", IntelliJ);
+    static mySql: Skill = new Skill("MySQL", MySql);
+    static redis: Skill = new Skill("Redis", Redis);
+    static mongoDb: Skill = new Skill("MongoDB", MongoDb);
+
     static vsCode: Skill = new Skill("VS Code", VSCode);
-    static visualStudio: Skill = new Skill("VS", VisualStudio);
 
     static git: Skill = new Skill("Git", Git);
     static bash: Skill = new Skill("Bash", Bash);
     static docker: Skill = new Skill("Docker", Docker);
-    static postman: Skill = new Skill("Postman", Postman);
     static npm: Skill = new Skill("NPM", Npm);
-    static oci: Skill = new Skill("OCI", Oci);
-    static gradle: Skill = new Skill("Gradle", Gradle);
     static graphQL: Skill = new Skill("GraphQL", GraphQL);
-    static hetzner: Skill = new Skill("Hetzner", Hetzner);
-    static nginx: Skill = new Skill("Nginx", Nginx);
+    static vercel: Skill = new Skill("Vercel", Vercel);
 }
 
 export class SkillSet {

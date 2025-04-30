@@ -1,5 +1,6 @@
 import * as Classes from "@/Classes";
 import moment from "moment";
+import C from "./svg/languages/C";
 
 export const userInfo = {
     fullName: "Jeydin Pham",
@@ -39,12 +40,10 @@ export const skillSets = [
             Classes.Skill.typeScript,
             Classes.Skill.javaScript,
             Classes.Skill.python,
-            // Classes.Skill.r,
             Classes.Skill.java,
             // Classes.Skill.c,
             // Classes.Skill.cpp,
             // Classes.Skill.cSharp,
-            // Classes.Skill.rust,
             // Classes.Skill.dart,
         ]
     ),
@@ -62,31 +61,21 @@ export const skillSets = [
     new Classes.SkillSet(
         "Back-End",
         [
-            // Classes.Skill.spring,
             Classes.Skill.node,
             Classes.Skill.mySql,
-            // Classes.Skill.sqLite,
-            // Classes.Skill.postgreSql,
-            // Classes.Skill.supabase,
+            Classes.Skill.redis,
+            Classes.Skill.mongoDb
         ]
     ),
     new Classes.SkillSet(
         "Tools",
         [
-            // Classes.Skill.eclipse,
-            // Classes.Skill.intelliJ,
             Classes.Skill.vsCode,
-            // Classes.Skill.visualStudio,
             Classes.Skill.bash,
             Classes.Skill.git,
             Classes.Skill.npm,
-            // Classes.Skill.graphQL,
-            // Classes.Skill.gradle,
-            // Classes.Skill.nginx,
-            // Classes.Skill.docker,
-            // Classes.Skill.postman,
-            // Classes.Skill.oci,
-            // Classes.Skill.hetzner,
+            Classes.Skill.docker,
+            Classes.Skill.vercel
         ]
     ),
 ];
