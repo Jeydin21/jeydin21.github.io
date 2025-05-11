@@ -14,7 +14,7 @@ import ProjectMenu from "@/components/ProjectMenu";
 import LoadingScreen from "@/components/LoadingScreen";
 
 export default function Main() {
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
@@ -41,7 +41,7 @@ export default function Main() {
             </div>
             <PopupMenu />
             <ProjectMenu />
-            <LoadingScreen loading={loading} />
+            {/* <LoadingScreen loading={loading} /> */}
         </>
     );
 }
