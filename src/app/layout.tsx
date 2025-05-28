@@ -20,6 +20,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     {children}
                 </div>
             </body>
+            <script
+                src="https://app.rybbit.io/api/script.js"
+                data-site-id="289"
+                defer
+            ></script>
         </html>
     );
 }
