@@ -97,19 +97,34 @@ new Classes.Job(
 
 export const jobs = [
     new Classes.Job(
+        "Software Development Officer",
+        "May 2025 -- Present",
+        "ACM UTD",
+        [
+            new Classes.Detail(
+                "Description",
+                <>
+                    At ACM UTD, the largest student tech organization at UT Dallas, I help build internal tools, event platforms, and community-focused web apps. I contribute to full-stack projects using React and Next.js, with a focus on frontend features, UI components, and performance optimization. I also participate in code reviews and design discussions to enhance user experience and maintain system reliability.
+                </>
+            ),
+        ],
+        [],
+        "jobs/acmutd.jpg"
+    ),
+    new Classes.Job(
         "Grading Assistant",
-        "Feb 2023 - May 2025",
+        "Feb 2023 -- May 2025",
         "Kumon North America",
         [
             new Classes.Detail(
                 "Description",
                 <>
-                    Assisted two instructors in managing a classroom of 30+ students by organizing inventory across 40+ levels, grading assignments to maintain averages above 70%, and supervising classroom noise levels.
+                    At Kumon, I graded student assignments using the Kumon Connect platform, which helped speed up the grading process and deliver quicker feedback. I worked closely with two instructors to manage a classroom of over 20 students, and supported learners in mastering math concepts ranging from elementary to high school level.
                 </>
             ),
         ],
         [],
-        "jobs/kumon.png"
+        "jobs/kumon.jpg"
     )
 ];
 

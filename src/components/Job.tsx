@@ -38,7 +38,7 @@ export default function Job({ job }: { job: Classes.Job }) {
                             <Reveal direction="right" delay={0.6} className="space-y-1">
                                 {job.details.map((detail, index) => (
                                     <Details key={index} title={detail.title}>
-                                        <p className="text-justify text-text-1">
+                                        <p className="text-text-1">
                                             {detail.content}
                                         </p>
                                     </Details>
