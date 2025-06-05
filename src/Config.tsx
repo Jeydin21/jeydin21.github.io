@@ -5,7 +5,7 @@ import C from "./svg/languages/C";
 export const userInfo = {
     fullName: "Jeydin Pham",
     shortName: "Jeydin",
-    nickName: "Jeydin21",
+    nickName: "Jeydin Pham",
     age: moment().diff(moment({
         day: 6,
         month: 7,
@@ -22,11 +22,11 @@ export const userInfo = {
             When I'm not coding, I'm either grinding video games, working on homework, or sleeping off my massive sleep debt :)
         </>
     ),
-    role: "Full-Stack Developer",
+    role: "Incoming CS Student @ UT Dallas '29",
     education: {
         link: "https://www.utdallas.edu/",
         school: "The University of Texas at Dallas",
-        period: "Bachelor's degree in CS: 2025 - 2029",
+        period: "B.S. in CS: August 2025 - May 2029",
     }
 };
 export const skillSets = [

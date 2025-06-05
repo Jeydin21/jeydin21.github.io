@@ -38,12 +38,15 @@ export default function Home({ delay }: { delay: number }) {
                 <div className="flex-grow"></div>
                 <div className="flex-grow"></div>
                 <Reveal direction="right" delay={delay + 0.2}>
-                    <h1 className="font-bold">Hey, I'm {Config.userInfo.shortName} 👋</h1>
+                    <h1 className="font-bold">Hey, I'm {Config.userInfo.shortName}👋</h1>
                 </Reveal>
                 <Reveal direction="right" delay={delay + 0.4}>
-                    <h2 className="font-bold">{Config.userInfo.role}</h2>
+                    <h2 className="font-semibold">{Config.userInfo.role}</h2>
                 </Reveal>
-                <Reveal className="flex gap-2 justify-center items-center" direction="right" delay={delay + 0.6}>
+                <Reveal direction="right" delay={delay + 0.6}>
+                    <h2 className="font-semibold">Based in {Config.contactInfo.location}</h2>
+                </Reveal>
+                <Reveal className="flex gap-2 justify-center items-center" direction="right" delay={delay + 0.8}>
                     <IconLink href={Config.contactInfo.github} IconComponent={Github} />
                     <IconLink href={Config.contactInfo.linkedin} IconComponent={Linkedin} />
                     <IconLink href={Config.contactInfo.instagram} IconComponent={Instagram} />
