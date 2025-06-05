@@ -16,7 +16,7 @@ export const userInfo = {
         <>
             Hi there!
             I'm a Computer Science student who got into coding back in the 7th grade when I learned
-            how to create Discord bots during the COVID-19 pandemic. I'm aiming to become a full-stack developer — because why choose one
+            how to create Discord bots during the COVID-19 pandemic. I'm aiming to become a full-stack developer, because why choose one
             side when you can do it all?
             <br /><br />
             When I'm not coding, I'm either grinding video games, working on homework, or sleeping off my massive sleep debt :)
@@ -27,11 +27,7 @@ export const userInfo = {
         link: "https://www.utdallas.edu/",
         school: "The University of Texas at Dallas",
         period: "Bachelor's degree in CS: 2025 - 2029",
-    },
-    resumes: {
-        EN: "resumes/EN.pdf",
-        VN: "resumes/VN.pdf",
-    },
+    }
 };
 export const skillSets = [
     new Classes.SkillSet(

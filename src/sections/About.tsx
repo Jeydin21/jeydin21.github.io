@@ -79,33 +79,6 @@ export default function About() {
                         </div>
                         <Reveal className="flex flex-col h-full gap-2 lg:gap-4" delay={0.4}>
                             <Info name={Config.userInfo.education.school} value={Config.userInfo.education.period} href={Config.userInfo.education.link} IconComponent={School} />
-                            <div className="relative grid grid-cols-[70%_30%] space-x-2 lg:space-x-4">
-                                <div>
-                                    <DoubleButton
-                                        className="w-full"
-                                        text="View Resume"
-                                        IconComponent={Download}
-                                        onClick={() => {
-                                            window.open(Object.entries(Config.userInfo.resumes)[resumeLanguage][1], "_blank")
-                                        }}
-                                        onIconClick={() => {
-                                            var link = document.createElement("a");
-                                            link.download = `Resume_${Config.userInfo.fullName.replaceAll(" ", "_")}_${Object.entries(Config.userInfo.resumes)[resumeLanguage][0]}.pdf`;
-                                            link.href = Object.entries(Config.userInfo.resumes)[resumeLanguage][1];
-                                            link.click();
-                                            link.remove();
-                                        }}
-                                    />
-                                </div>
-                                <div>
-                                    <Selector
-                                        className="h-full"
-                                        options={Object.entries(Config.userInfo.resumes).map(([key, value]) => key)}
-                                        selected={resumeLanguage}
-                                        onSelect={(option, index) => setResumeLanguage(index)}
-                                    />
-                                </div>
-                            </div>
                         </Reveal>
                     </div>
                 </div>
