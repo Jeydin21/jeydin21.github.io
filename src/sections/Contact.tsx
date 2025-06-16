@@ -40,7 +40,7 @@ function ContactForm() {
 
     return (
         <Reveal>
-            <form onSubmit={handleSubmit} autoComplete="on" className="flex flex-col gap-2">
+            <form onSubmit={handleSubmit} method="POST" autoComplete="on" className="flex flex-col gap-2">
                 <Input
                     id="name"
                     type="text"
