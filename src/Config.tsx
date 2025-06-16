@@ -1,6 +1,5 @@
 import * as Classes from "@/Classes";
 import moment from "moment";
-import C from "./svg/languages/C";
 
 export const userInfo = {
     fullName: "Jeydin Pham",
@@ -233,13 +232,15 @@ export const projects = [
 ];
 
 export const contactInfo = {
+    formspreeKey: "xblyypop",
+    reCaptchaKey: "6Ld-JyYrAAAAAFAT3E_dOc5C63UmCjen9k0_4m6c",
     location: "Katy, Texas",
-    email: "jeydin@j21.dev",
+    email: "jeydin@jeydinpham.com",
     github: "https://github.com/Jeydin21/",
     instagram: "https://www.instagram.com/Jeydin21/",
     linkedin: "https://www.linkedin.com/in/jeydinpham/",
 };
 export const footer = [
     "© " + moment().year() + " Jeydin Pham",
-    "",
+    "I use Arch btw!",
 ];
